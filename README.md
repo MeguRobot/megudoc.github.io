@@ -21,13 +21,18 @@ npm install
 
 ### This project depends on:
 
-> ViteJS
-> ReactJS
+<p align="center">
+  <a href="https://vitejs.dev/guide/">
+    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+  </a>
+</p>
 
 And then for start a development server you type:
 ```
 npm run dev
 ```
-And voilá, you re completely ready to start!!
+And voilá, you re completely ready to start, EXPLOSION!!!
+
+<img  src="https://i.pngimg.me/thumb/f/720/comhiclipartgtsmm.jpg"/>
 
 
