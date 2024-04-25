@@ -23,7 +23,7 @@ npm install
 
 <p align="center">
   <a href="https://vitejs.dev/guide/">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+    <img src="https://skillicons.dev/icons?i=vite,react" />
   </a>
 </p>
 
@@ -33,6 +33,6 @@ npm run dev
 ```
 And voilá, you re completely ready to start, EXPLOSION!!!
 
-<img  src="https://i.pngimg.me/thumb/f/720/comhiclipartgtsmm.jpg"/>
+
 
 
