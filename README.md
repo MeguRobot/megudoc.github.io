@@ -13,10 +13,17 @@ After the installation is COMPLETED correctly the next thing you need to do is t
 ```
 git clone https://github.com/MeguRobot/legendary-doc.git
 ```
-After this, you will need to install the dependencies of this project, but dont worry, NODE will make it for you so you only need to type inside your terminal:
+After this, you will need to install the dependencies of this project, but dont worry, NODE will make it for you, so you only need to type inside your terminal:
+
 ```
 npm install
 ```
+
+### This project depends on:
+
+> ViteJS
+> ReactJS
+
 And then for start a development server you type:
 ```
 npm run dev
