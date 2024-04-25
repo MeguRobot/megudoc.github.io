@@ -1,9 +1,11 @@
-import './App.css'
+import Navigation from './Components/Navigation'
 
 function App() {
-
-  return (
+  return (  
     <>
+      <div>
+          <Navigation></Navigation>
+      </div>
     </>
   )
 }
