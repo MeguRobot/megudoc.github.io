@@ -4,3 +4,13 @@
 
 .WikiBackground {
 }
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../public/Fonts/Poppins-Regular.ttf") format("ttf");
+}
+
+body {
+    font-family: Poppins;
+    background-color: beige;
+}

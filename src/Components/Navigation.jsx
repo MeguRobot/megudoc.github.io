@@ -1,11 +1,13 @@
-
+import "../index.css"
+import Home from "./Home";
+import Readme from "./Readme";
 
 function Navigation() 
 {
     return (
-        <div className="navBarUpper flex flex-row space-x-4 p-4 from-stone-950 ">
-            <h1 className="HomeText">Home</h1>
-            <h1 className="readmeText"><a href="https://google.com"> Readme</a></h1>                
+        <div className="navBarUpper flex flex-row flex-grow space-x-4 p-4 poppins backdrop-blur-sm max-w-screen max-h-24 sticky border-slate-700 bg-slate-500 bg-opacity-50 shadow-md">
+             <Home></Home>
+             <Readme></Readme>
         </div>
     );
 }
