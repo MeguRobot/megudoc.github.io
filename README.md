@@ -1,5 +1,5 @@
 # Legendary-Doc 🔥
-Totally unnecessary documentation frontend for the MeguRobot codebase 
+Totally unnecessary documentation frontend for the MeguRobot codebase.
 
 ## What is this 101 🤔.
 This is the totally mandatory repository for the frontend system of the documentation site for the Megu codebase, it means that you will find here (TOTALLY) understandable
@@ -23,7 +23,7 @@ npm install
 
 <p align="center">
   <a href="https://vitejs.dev/guide/">
-    <img src="https://skillicons.dev/icons?i=vite,react" />
+    <img src="https://skillicons.dev/icons?i=vite,react,tailwindcss" />
   </a>
 </p>
 
@@ -31,7 +31,7 @@ And then for start a development server you type:
 ```
 npm run dev
 ```
-And voilá, you re completely ready to start, EXPLOSION!!!
+And voilá, you re completely ready to start.
 
 
 
