@@ -6,7 +6,7 @@ function Wikipane()
 {
     return (
         <>
-            <div className="wikiPane overflow-y-auto p-4 flex flex-col max-h-screen ">
+            <div className="wikiPane overflow-y-auto p-4 flex flex-col max-h-screen">
                 <ul>
                     {addRows.map((item) => (
                         <li key={item}>Item {item}</li>
