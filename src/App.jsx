@@ -8,7 +8,6 @@ function App() {
           <Wikipane></Wikipane>
           <Navigation></Navigation>
       </div>
-      <Searchbar></Searchbar>
     </>
   )
 }
