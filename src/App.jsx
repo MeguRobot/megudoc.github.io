@@ -1,6 +1,5 @@
 import Navigation from './Components/Navigation'
 import Wikipane from './Components/Wikipane'
-import Searchbar from './Components/Searchbar'
 function App() {
   return (  
     <>
