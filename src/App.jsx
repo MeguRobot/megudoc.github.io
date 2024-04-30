@@ -10,11 +10,8 @@ function App() {
   return (  
     <>
       <div className='mainPage flex flex-row flex-auto'>
-      <motion.div initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}>
-                  <Wikipane></Wikipane>
-              </motion.div>
-          
+
+          <Wikipane></Wikipane>
             <section className='pageContent flex flex-col flex-auto'>
               <motion.div>
               <Navigation></Navigation>
