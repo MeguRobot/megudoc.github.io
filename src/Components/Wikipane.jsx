@@ -1,5 +1,5 @@
 import arrow from "../assets/arrow_down.svg"
-
+import { motion } from "framer-motion";
 
     const addRows = Array.from({length: 20}, (_, i) => i+1);
         
@@ -18,11 +18,15 @@ function Wikipane()
             <div className="ElementsDiv p-2 flex flex-col ">
                 <ul className="wikiList text-slate-500 py-2 ">
                        {addRows.map((item) => (
-                            <div key={item} className="itemWikiType outline outline-1 outline-red-950 m-2 p-2 rounded-md flex flex-row">
-                                
-                                <li key={item}>Entry {item}</li>
-                                <img className="arrowEntry size-5 opacity-80" src={arrow}></img>  
-                            </div>
+                    <motion.div key={item} initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }} transition={{ease: "linear", type: "spring", stiffness: 100, delay:0.2}}>
+<div key={item} className="itemWikiType outline outline-1 outline-red-950 m-2 p-2 rounded-md flex flex-row">
+
+    <li key={item}>Entry {item}</li>
+    <img className="arrowEntry size-5 opacity-80" src={arrow}></img>  
+    </div>                             
+                        </motion.div>
+ 
 
                     ))}
                 </ul>
