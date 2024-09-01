@@ -1,38 +1,33 @@
-# Legendary-Doc 🔥
-Totally unnecessary documentation frontend for the MeguRobot codebase.
+This is my personal portfolio, its a general purpose developer portfolio with a glassmorphic style made on NEXTJS with JSX 
 
-## What is this 101 🤔.
-This is the totally mandatory repository for the frontend system of the documentation site for the Megu codebase, it means that you will find here (TOTALLY) understandable
-documentation about the code used for the Megumin telegram bot.
+![image](https://github.com/user-attachments/assets/b0c9a351-0019-4213-9f23-cb5796b05d2d)
 
-## Where I do start 101.
-Well, all you need to do is to install [NODEJS](https://nodejs.org/en/download/), this projects depends on it like you depend on the air you steal.
+## Getting Started
 
-After the installation is COMPLETED correctly the next thing you need to do is to create a copy of this repository so open up your lovely terminal 💻 and type:
+First, run the development server:
 
-```
-git clone https://github.com/MeguRobot/legendary-doc.git
-```
-After this, you will need to install the dependencies of this project, but dont worry, NODE will make it for you, so you only need to type inside your terminal:
-
-```
-npm install
-```
-
-### This project depends on:
-
-<p align="center">
-  <a href="https://vitejs.dev/guide/">
-    <img src="https://skillicons.dev/icons?i=vite,react,tailwindcss" />
-  </a>
-</p>
-
-And then for start a development server you type:
-```
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
-And voilá, you re completely ready to start.
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 
 
