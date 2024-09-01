@@ -1,3 +1,2 @@
-Diablo nacho mira que tu ere loco...
+## MeguBot documentation repository!
 
-## Esta es la pagina para la documentacion del megubot, para cuando te de la gana.
